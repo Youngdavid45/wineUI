@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #b10611;
+    color: #B8B0B2;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+    
+}
+
+.container .cont-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+    min-width: 730px;
+    background-color: #18090d;
+    padding: 7rem 5em;
+    border-radius: 6px;
+    box-shadow: 3px 5px #7e030b;
+}
+
+.part-2 {
+    padding-left: 60px;
+    /* border-left: 1px solid #7e030b59; */
+    border-left: 1px solid #2b13196e;
+}
+
+div > h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+div > h4 {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+div > p {
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 17px;
+    margin-bottom: 50px;
+}
+
+div li {
+    line-height: 2;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: padding 0.2s ease;
+}
+
+#first {
+    padding: 13px 70px;
+    border: 1px solid #b10611;
+    color: #b10611;
+    background-color: inherit;
+}
+
+#second {
+    padding: 13px 80px;
+    color: white;
+    background-color: #b10611;
+}
+
+footer {
+    display: flex;
+    justify-self: end;
+    align-items: flex-end;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7e030b80;
+    min-height: 10vh;
+    width: 800px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* @media screen and (max-width: 404px) {
+    .container .cont-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;
+        align-items: center;
+        text-align: center;
+        max-height: 100vh;
+        width: 100%;
+        padding: 7rem 5em;
+        border-radius: 6px;
+        box-shadow: 3px 5px #7e030b;
+        margin: auto;
+    }
+} */
